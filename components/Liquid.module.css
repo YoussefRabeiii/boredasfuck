@@ -1,0 +1,10 @@
+.liquid {
+  font-family: fantasy;
+  background: #04c5c5;
+  /* background: #455445; */
+}
+
+.text {
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
