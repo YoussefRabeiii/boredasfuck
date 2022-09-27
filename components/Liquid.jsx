@@ -40,8 +40,9 @@ const Liquid = ({ text = "Bored as fuck", duration = "1.5s" }) => {
           x="50"
           y="15"
           font-size="15"
-          fill="white"
+          fill="#010947"
           fill-opacity="1"
+          className={styles.border}
         >
           {text}
         </text>

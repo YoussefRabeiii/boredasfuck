@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Liquid from "../components/liquid";
+import { Liquid } from "../components";
 // import Image from 'next/image'
 import styles from "../styles/Home.module.css";
 
