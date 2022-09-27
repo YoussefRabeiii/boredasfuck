@@ -22,6 +22,8 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
+        <Liquid text="Bored Ass Fuck" />
+
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
@@ -62,8 +64,6 @@ export default function Home() {
           Made by <h3 className={styles.logo}>Youssef Rabei</h3>
         </a>
       </footer>
-
-      <Liquid surfer="Fuck YOoOU " />
     </div>
   );
 }

@@ -35,24 +35,26 @@ const Liquid = ({ text = "Bored as fuck", duration = "1.5s" }) => {
           </pattern>
         </defs>
         <text
-          textAnchor="middle"
+          class="border"
+          text-anchor="middle"
           x="50"
-          y="17"
-          fontSize="17"
-          // fill="#04c5c5"
-          fillOpacity="0"
+          y="15"
+          font-size="15"
+          fill="white"
+          fill-opacity="1"
         >
-          {text} 
+          {text}
         </text>
         <text
-          textAnchor="middle"
+          class="border"
+          text-anchor="middle"
           x="50"
-          y="17"
-          fontSize="17"
+          y="15"
+          font-size="15"
           fill="url(#wave)"
-          fillOpacity="1"
+          fill-opacity="1"
         >
-          {text} 
+          {text}
         </text>
       </svg>
     </div>
