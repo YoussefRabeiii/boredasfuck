@@ -14,15 +14,24 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="/">Bored As Fuck !</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
+          where I will be <code className={styles.code}>coding</code> some text
+          animations and some other stupid little stuff <code className={styles.code}>no libraries allowed</code> <p style={{ fontSize:"1rem" }}>(cause I hate myself )</p>
         </p>
 
-        <Liquid text="Bored Ass Fuck" />
+        <Liquid
+          stroke
+          text="Bored As Fuck"
+          // waveHeight={1}
+          // strokeColor
+          // duration
+          // fontSize
+          // waveColor
+          // textColor
+        />
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -61,7 +70,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made by <h3 className={styles.logo}>Youssef Rabei</h3>
+          Made by one stupid bored sleepless
+          <span style={{ marginInlineStart: "-55px", marginBlockEnd: "-5px" }}>
+            <Liquid text="Youssef Rabei" fontSize="8px" width="250px" />
+          </span>
         </a>
       </footer>
     </div>

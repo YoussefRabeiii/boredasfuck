@@ -1,14 +1,17 @@
+/* @import url(https://fonts.googleapis.com/css?family=Cabin+Condensed); */
+
 .liquid {
   width: 80%;
-  padding: 0 2px;
+  /* padding: 0 2px; */
   display: block;
-  color: #04c5c5;
+  /* color: #04c5c5; */
   font-family: fantasy;
+  /* font-family: "Cabin Condensed", sans-serif; */
   /* background: #04c5c5; */
   /* background: #455445; */
 }
 
-.border {
-  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000;
-}
+/* .border {
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+} */
