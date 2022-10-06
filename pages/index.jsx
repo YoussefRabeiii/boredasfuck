@@ -17,23 +17,14 @@ export default function Home() {
           Welcome to <a href="#">Bored As Fuck !</a>
         </h1>
 
-        <p className={styles.description}>
+        <div className={styles.description}>
           where I will be <code className={styles.code}>coding</code> some text
           animations and some other stupid little stuff{" "}
           <code className={styles.code}>no libraries allowed</code>{" "}
           <p style={{ fontSize: "1rem" }}>(cause I hate myself )</p>
-        </p>
+        </div>
 
-        <Liquid
-          stroke
-          text="Bored As Fuck"
-          // waveHeight={1}
-          // strokeColor
-          // duration
-          // fontSize
-          // waveColor
-          // textColor
-        />
+        <Liquid stroke text="Bored As Fuck" />
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
