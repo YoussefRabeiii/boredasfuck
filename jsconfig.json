@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@components": ["./components/index.js"],
+			"@utils": ["./utils/index.js"],
+			"@assets": ["./assets/index.js"],
+			"@assets/*": ["./assets/*"],
+			"@ui": ["./components/ui/index.js"]
+		}
+	}
+}
